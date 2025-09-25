@@ -27,7 +27,7 @@ justify-self: center;
 margin: 2px 5px 5px 5px;
 }
 
-.header__contacts {
+.header__contacts { 
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -140,7 +140,7 @@ height: 723px;
 margin-left: 24px;
 }
 
-.h2{ 
+.h2 { 
 font-size: 40px;
 font-weight: 700;
 line-height: 1.0;
@@ -244,7 +244,7 @@ margin-top: 35px;
 margin-left: 47px;
 }
 
-.logo__white {
+.logo__white { 
 display: flex;
 margin: auto;
 justify-content: center;
@@ -310,7 +310,7 @@ padding-right: 75px;
 gap: 48px;
 }
 
-.link__yt, 
+.link__yt,
 .link__vk,
 .link__pinterest { 
 width: 48px;
