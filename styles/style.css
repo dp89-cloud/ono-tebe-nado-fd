@@ -297,7 +297,7 @@ margin-bottom: 79px;
 display: flex;
 flex-direction: column;
 gap: 24px;
-margin-right: 24px;
+margin-right: 5px;
 }
 
 .description__text { 
@@ -310,9 +310,9 @@ color: #000000;
 .footer { 
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
-grid-template-rows: 11px;
+grid-template-rows: 180px;
 margin-top: 146px;
-margin-left: 51px;
+margin-left: 50px;
 }
 
 .footer__contacts { 
@@ -325,7 +325,7 @@ font-size: 18px;
 font-weight: 400;
 line-height: 24px;
 font-style: normal;
-text-underline-offset: 3px;
+text-underline-offset: 4px;
 }
 
 .footer__menu { 
