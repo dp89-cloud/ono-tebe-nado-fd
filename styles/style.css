@@ -16,7 +16,7 @@ height: 22px;
 font-size: 18px;
 list-style-type: circle;
 margin-bottom: 6px;
-margin-right: 6px
+margin-right: 5px
 }
 
 .menu__link__main { 
@@ -24,7 +24,7 @@ list-style-type: none;
 }
 
 .menu__link__lots { 
-margin-right: 2px;
+margin-right: 3px;
 text-underline-offset: 4px;
 }
 
@@ -37,7 +37,7 @@ text-underline-offset: 4px;
 display: block;
 width: 137px;
 justify-self: center;
-margin-right: 2px;
+margin-right: 4px;
 }
 
 .header__contacts { 
@@ -50,8 +50,8 @@ font-size: 18px;
 font-weight: 400;
 line-height: 25px;
 font-style: normal;
-margin-bottom: 2px;
-text-underline-offset: 3px;
+margin-bottom: 4px;
+text-underline-offset: 4px;
 }
 
 .cover { 
@@ -95,7 +95,7 @@ margin: 0;
 .title__left { 
 grid-area: title__left;
 justify-self: start;
-margin-left: 7px;
+margin-left: 6px;
 }
 
 .title__center { 
@@ -140,7 +140,7 @@ color: #FFFFFF;
 text-transform: uppercase;
 background-color: transparent;
 margin-bottom: 8px;
-margin-right: 8px;
+margin-right: 6px;
 }
 
 .title__left,
@@ -237,6 +237,10 @@ padding: 40px;
 margin-bottom: 8px;
 }
 
+.lot__book__description { 
+padding: 0 40px 40px
+}
+
 .more { 
 display: flex;
 font-size: 20px;
@@ -247,28 +251,28 @@ width: 192px;
 height: 25px;
 margin-top: 3px;
 margin-left: 40px;
-text-underline-offset: 3px;
+text-underline-offset: 4px;
 }
 
 .about { 
 display: grid;
 grid-template-columns: 334px auto;
-grid-template-rows: 240px auto;
 column-gap: 25px;
+align-items: start;
 width: 1052px;
 height: 595px;
-margin-top: 120px;
+margin: 150px 24px auto auto;
 }
 
 .logo__about { 
 display: flex;
 background-color: #000000;
-width: 240px;
+width: 241px;
 height: 240px;
 border-radius: 50%;
 overflow: hidden;
-margin-top: 30px;
-margin-left: 71px;
+align-self: start;
+justify-self: center;
 }
 
 .logo__white { 
@@ -285,15 +289,15 @@ font-weight: 700;
 line-height: 1.0;
 text-transform: uppercase;
 color: #000000;
-margin-top: 136px;
-margin-bottom: 80px;
+margin-top: 106px;
+margin-bottom: 79px;
 }
 
 .about__description { 
 display: flex;
 flex-direction: column;
 gap: 24px;
-margin-left: 25px;
+margin-right: 24px;
 }
 
 .description__text { 
@@ -306,8 +310,8 @@ color: #000000;
 .footer { 
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
-grid-template-rows: 180px;
-margin-top: 176px;
+grid-template-rows: 11px;
+margin-top: 146px;
 margin-left: 51px;
 }
 
