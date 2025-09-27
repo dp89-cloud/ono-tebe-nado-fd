@@ -310,7 +310,7 @@ color: #000000;
 .footer { 
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
-grid-template-rows: 180px;
+grid-template-rows: 185px;
 margin-top: 146px;
 margin-left: 50px;
 }
